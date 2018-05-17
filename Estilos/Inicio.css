@@ -1,0 +1,60 @@
+﻿@charset "UTF-8";
+
+#Inicio{
+	width:66%;
+	margin:2% 1%;
+	padding:1%;
+	background-color:white;
+	font:bold 12pt "Calibrí";
+	float:left;
+	border-radius:18px;
+	font:12pt "Arial";
+}
+#Inicio h1{
+	font:italic 20pt "Rod";
+	text-align:center;
+	margin:10px;
+	margin-bottom:25px;
+	border:3px solid #000;
+	background:rgb(132,175,25);
+	border-radius:10px;
+}
+#Inicio video{
+	width:80%;
+	height:60%;
+	margin:5%;
+	text-align:center;
+	border-radius:10px;
+}
+#Columna{
+	width:26%;
+	margin:2% 1%;
+	padding:1%;
+	text-align:center;
+	background-color:rgb(222,222,70);
+	float:left;
+	font:10pt Arial;
+}
+#Columna ul li{list-style:none;}
+#Columna1{
+	width:26%;
+	margin:2% 1%;
+	padding:1%;
+	float:left;
+	font:bold 10pt "Verdana";
+	background:rgb(230,200,100);
+	border-radius:18px;
+}
+#Contacto{
+	width:26%;
+	margin:1%;
+	padding:1%;
+	float:left;
+}
+#Contacto img{
+	width:100%;
+	height:100%;
+	border:5px solid #000;
+	text-align:center;
+	border-radius:12px;
+}

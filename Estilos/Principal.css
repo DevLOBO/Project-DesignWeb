@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:rgb(50,125,66);
+}
+#Principal{
+ 	width:100%;
+	overflow:hidden;
+	font-size:100%;
+	text-align:left;
+}
+#titulo marquee{
+	color:#C0C0C0;
+	font-family: "Bookman Old Style";
+	font-size:800%;
+	text-shadow:8px 8px 4px black;
+	-moz-text-stroke:4px #111112;
+	-moz-text-fill-color:#1D7DDD;
+	-webkit-text-stroke:4px #111112;
+	-webkit-text-fill-color:#1D7DDD;
+	width:50%;
+	float:left;
+	height:8%;
+	line-height:100px;
+	-moz-transform: skew(-2deg);
+	-webkit-transform: skew(-2deg);
+}
+#titulo img{
+	float:left;
+	width:24%;
+	height:8%;
+}
+#titulo form{
+	float:left;
+	width:20%;
+	margin:3%;
+}
+#Buscar input{
+	font:bold 10pt "Verdana";
+	border:2px solid #000 inset;
+	border-radius:5px;
+	width:70%;
+	heigth:2%;
+	padding-left:1%;
+	background-color:#EEE;
+}
+#Buscar input:focus{
+	background-color:rgba(0,0,0,0.3);
+	color:rgba(255,255,255,0.6);
+	font:italic 11pt "Verdana";
+}
+#Buscar button{
+	font:italic 11pt "Verdana";
+	color:#fff;
+	background-color:#438CDB;
+	border-radius:8px;
+}
+#Buscar button:hover{
+	opacity:0.6;
+	-webkit-transform:scale(1.1) rotate(-5deg);
+	-webkit-transition:-moz-transform 1s ease-in-out 0.1s;
+	-moz-transform:scale(1.1) rotate(-5deg);
+	-moz-transition:-moz-transform 1s ease-in-out 0.1s;
+}
+#barra a{
+	color:#FFF;
+	font-size:11pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:link{
+	color:yellow;
+}
+a: visited{
+	color:blue;
+}
+a:hover{
+	color:red;
+}
+a:active:visited{
+	color:yellow
+}
+#barra{
+	clear:both;
+	background-color:#000;
+	border:solid;
+	height:45px;
+	margin:-5px;
+	float:left;
+	width:100%;
+	padding:5px 15px;
+}
+#barra ul li:nth-child(1){
+	background:#000;
+	border:solid 2px #FFF;
+	position:relative;
+	left:20px;
+	background:rgba(0,0,0,1);
+}
+#barra ul li:nth-child(2){
+	background:#000;
+	border:solid 2px #FFF;
+	position:relative;
+	left:20px;
+	background:rgba(0,0,0,0.8);
+}
+#barra ul li:nth-child(3){
+	background:#000;
+	border:solid 2px #FFF;
+	position:relative;
+	left:20px;
+	background:rgba(0,0,0,0.6);
+}
+#barra ul li:nth-child(4){
+	background:#000;
+	border:solid 2px #FFF;
+	position:relative;
+	left:20px;
+	background:rgba(0,0,0,0.4);
+}
+
+#barra ul li{
+	position:relative;
+	top:12px;
+	display:inline;
+	background-color:#008000;
+	padding:5px 10px;
+	box-shadow:0 0 10px #360;
+	border-radius:20px/10px;
+	margin-left:20px;
+	font: bold 11pt verdana, sans-serif;
+}
+#Pie{
+	clear:both;
+	padding:20px;
+	margin-top:20px;
+	text-align:center;
+	font: 8px verdana sans-serif;
+	color:#FFF;
+	border-top:3px solid blue;
+	background-color:#000;
+}

@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Galería Fotográfica</title>
+	<link rel="stylesheet" href="Estilos/Principal.css">
+	<link rel="stylesheet" href="Estilos/Galería.css">
+	<script src="Estilos/Galería.js"></script>
+</head>
+<body>
+<div id="Principal">
+	<div id="titulo">
+		<header>
+			<marquee behavior=slide>GALERÍA</marquee>
+			<figure>
+				<img src="Imagenes/Bocel - Logotipo.png" alt="Bocel - Calentadores y celdas solares" width="300px" height="100px">
+			</figure>
+			<form id="Buscar" action="Estilos/Buscar.php" method="get">
+				<input type="search" name="q" placeholder="¿Qué le gustó?" required="required">
+				<button type="submit">Buscar</button>
+			</form>
+		</header>
+	</div>
+<nav id="barra">
+	<ul>
+		<li><a href="Inicio.html">Inicio</a></li>
+        <li><a href="Galería.html">Galeria</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+		<li><a href="Productos.html">Productos</a></li>
+    </ul>
+</nav>
+	<section id="seccion">
+	<header>
+		<hgroup>
+			<h1>Obsérvanos a través de los ojos de las cámaras.</h1>
+			<h2>Hay muchas cosas que aún no conoces de nosotros... ¡Descúbrelas!</h2>
+		</hgroup>
+	</header>
+	<p></p><br>
+		<ul id="galeria">
+			<li><img src="imagenes/ps2.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps11.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps3.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps4.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps5.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps13.png" alt="ps"></li>
+			<li><img src="imagenes/ps9.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps10.jpg" alt="ps"></li>
+			<li><img src="imagenes/ps12.jpg" alt="ps"></li>
+		</ul>
+	</section>
+	<aside id="Columna">
+		También puedes conocer las instituciones que nos patrocinan:
+			<figure><ul>
+				<li><a href="https://www.unitec.mx"><img src="Imagenes/UNITEC.png" width=150px height=50px></a></li>
+				<li><a href="https://www.gob.mx/semarnat"><img src="Imagenes/SEMARNAT.png" width=150px height=50px></a></li>
+				<li><a href="https://www.dgae.unam.mx/"><img src="Imagenes/UNAM.png" width=150px height=50px></a></li>
+			</ul></figure>
+	</aside>
+	<aside id="Columna1">
+		Conoce otros enlaces relacionados con nosotros:
+			<ul>
+				<li>cienciaecologica.org</li>
+				<li>¿Qué son es la energía alternativa?</li>
+				<li>¡Descubre dónde están nuestras sucursales!</li>
+				<li>¿Cómo funciona la "Teconología fotovoltaica"?</li>
+			</ul>
+	</aside>
+
+<section id=reproductor>
+	<audio src="Audio/Galería.mp3" autoplay></audio>
+</section>
+	<footer id="Pie">
+		Todos los Derechos Reservados &copy 2016 <a href="ARTWEB/ARTWEB.html">ARTWEB</a>
+		<br><img src="Imagenes/ARTWEB - Logo.png" alt="Consultoria Digital ARTWEB" width=100px height=33px>
+	</footer>
+</div>
+</body>
+</html>

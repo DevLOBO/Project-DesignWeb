@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#seccion{
+	width:66%;
+	margin:2% 1%;
+	padding:1%;
+	backgroınd-color:#FFF;
+	font:12pt Calibri;
+	float:left;
+	border-radius:10px;
+}
+#Columna1{
+	font:bold 12pt "Times New Roman";
+	color:#000;
+	background:#FFF;
+	text-align:center;
+}
+#seccion h1{
+	font:bold 26pt "Times New Roman";
+	color:#000;
+	background:#FFF;
+	text-align:center;
+}
+#Columna{
+	width:26%;
+	margin:2% 1%;
+	padding:1%;
+	text-align:center;
+	background-color:rgb(222,222,70);
+	float:left;
+	font:10pt Arial;
+}
+#Columna1 ul li{list-stule:none;}
+#Columna1{
+	width:14px;
+	margin:1%;
+	padding: 2% 1%;
+	float:left;
+	font:bold 10pt "Verdana";	backgr/un≈:r5bh:30,200,100);
+	border-radius:18px;
+}
